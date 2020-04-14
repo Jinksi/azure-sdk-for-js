@@ -82,7 +82,7 @@ async function main() {
       dequeueMessageItem.popReceipt
     );
     console.log(
-      `Delete message succesfully, service assigned request Id: ${deleteMessageResponse.requestId}`
+      `Delete message successfully, service assigned request Id: ${deleteMessageResponse.requestId}`
     );
   }
 
